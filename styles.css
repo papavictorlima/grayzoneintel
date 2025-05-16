@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1d1f1d;
+  background-image: url('https://www.transparenttextures.com/patterns/army-camouflage.png');
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
