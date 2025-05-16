@@ -3,7 +3,10 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #1d1f1d;
-  background-image: url('https://www.transparenttextures.com/patterns/army-camouflage.png');
+  background-image: url('images/camobackground.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #f0f0f0;
 }
 
@@ -15,6 +18,7 @@ header {
 
 header h1 {
   margin: 0;
+  font-size: 2rem;
 }
 
 nav ul {
@@ -23,17 +27,27 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 nav a {
   text-decoration: none;
   color: #ddd;
   font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
 }
 
 main {
   padding: 2rem;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 10px;
 }
 
 footer {
@@ -41,4 +55,6 @@ footer {
   padding: 1rem;
   text-align: center;
   font-size: 0.9rem;
+  margin-top: 2rem;
+  color: #aaa;
 }
